@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфоліо | Ростислав — Веб-розробник</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 class="title">Ростислав — Веб-розробник</h1>
+      <p class="subtitle">Розробляю швидкі, адаптивні та привабливі веб-застосунки</p>
+      <a href="#contact" class="btn primary">Зв'язатися</a>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <div class="container nav-wrapper">
+      <div class="logo">Rostislav.dev</div>
+      <ul class="nav-links">
+        <li><a href="#about">Про мене</a></li>
+        <li><a href="#projects">Проєкти</a></li>
+        <li><a href="#skills">Навички</a></li>
+        <li><a href="#contact">Контакти</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Про мене</h2>
+      <div class="about-content">
+        <p>Я — веб-розробник, який спеціалізується на створенні інтерфейсів користувача з фокусом на продуктивність, доступність та естетику. Використовую сучасні технології як React, Next.js, Tailwind CSS та TypeScript.</p>
+        <p>Постійно навчаюся новому, працюю з API, будую SPA, інтегрую бекенд та забезпечую кросбраузерність.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section dark">
+    <div class="container">
+      <h2>Проєкти</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Marvel Explorer</h3>
+          <p>Застосунок на React для перегляду героїв Marvel. Підключення до публічного API, фільтрація, динамічний рендеринг.</p>
+        </div>
+        <div class="project-card">
+          <h3>Live Chat</h3>
+          <p>Чат з WebSocket на базі Node.js. Реальне оновлення повідомлень, автентифікація, збереження історії.</p>
+        </div>
+        <div class="project-card">
+          <h3>Особистий блог</h3>
+          <p>Блог на Next.js з Markdown підтримкою. SEO оптимізація, генерація статичних сторінок, інтеграція з GitHub.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Навички</h2>
+      <ul class="skills-list">
+        <li>HTML5 / CSS3 / SCSS / Tailwind</li>
+        <li>JavaScript / TypeScript</li>
+        <li>React / Next.js / Zustand</li>
+        <li>REST API / GraphQL</li>
+        <li>Node.js / Express</li>
+        <li>Git / GitHub / CI/CD</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Зв'язок зі мною</h2>
+      <form id="contactForm" class="contact-form">
+        <input type="text" placeholder="Ваше ім’я" required />
+        <input type="email" placeholder="Ваш email" required />
+        <textarea placeholder="Ваше повідомлення" required></textarea>
+        <button type="submit" class="btn primary">Надіслати</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Ростислав. Всі права захищені.</p>
+      <div class="social-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Telegram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
